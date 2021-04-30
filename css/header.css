@@ -1,0 +1,25 @@
+
+.header {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(97, 48, 143);
+}
+
+.header__header {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.header__paragraph {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+.header__changeColorButton {
+    font-family: "Signika", sans-serif;
+    box-shadow: 0px 0px 5px 2px #c685cc;
+    font-size: 15px;
+}

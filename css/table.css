@@ -1,0 +1,26 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__cell {
+    border: 2px solid rgb(110, 77, 77);
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.table__cell--color {
+    background-color: rgb(189, 149, 194);
+    color: ivory;
+}
+
+.table__row:hover {
+    background-color: rgb(243, 226, 226);
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+}

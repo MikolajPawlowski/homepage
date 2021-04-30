@@ -1,0 +1,66 @@
+.section {
+    padding: 30px 20px;
+}
+
+.section__header {
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(97, 48, 143);
+}
+
+.section__header--special {
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(97, 48, 143);
+    font-weight: 500;
+}
+
+.section__paragraph {
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 2;
+}
+
+.section__highlight {
+    color: rgb(145, 19, 19);
+}
+
+.section__box {
+    padding: 20px;
+    margin: 50px;
+    background-color: rgba(221, 175, 206, 0.952);
+    color: rgb(39, 39, 39);
+}
+
+.section__image {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 70px;
+    box-shadow: 3px 3px 10px rgba(150, 0, 0, 0.849);
+    margin: 0 auto;
+    display: block;
+}
+
+.section__link {
+    text-decoration: none;
+    color: rgb(97, 48, 143);
+}
+
+.section__link:hover {
+    color: rgb(144, 88, 197);
+    border-bottom: 1px solid;
+}
+
+.section__showHiddenButton {
+    font-family: "Signika", sans-serif;
+    box-shadow: 0px 0px 5px 2px #c685cc;
+}
+
+.section__hidden {
+    visibility: hidden;
+    text-align: center;
+}

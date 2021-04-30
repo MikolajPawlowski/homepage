@@ -5,33 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="images/bełkot.jpg">
+    <meta property="og:image" content="images/organic.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table_container.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500;700&display=swap" rel="stylesheet">
     <title>Domowe Kimchi</title>
-    <link rel="icon" href="images/icon.jpg">
+    <link rel="icon" href="images/icon.png">
 </head>
 
 <body class="body">
-    <header>
-        <h1 class="header js-header">Domowe Kimchi</h1>
+    <header class="header">
+        <h1 class="header__header js-header">Domowe Kimchi</h1>
         <p class="header__paragraph">
-            <button class="changeColor js-changeColor">Naciśnij, aby losowo zmienić kolor nagłówka</button>
+            <button class="header__changeColorButton js-changeColor">Naciśnij, aby losowo zmienić kolor nagłówka</button>
         </p>
-        <h2 class="header">Projekt uczyniony przy okazji pandemii</h2>
+        <h2 class="header__header">Projekt wykonany przy okazji pandemii</h2>
         <nav class="navigation">
-            <ul class="navigation__list">
-                <li>
+            <div class="navigation__flex">
                     <a href="#produkt" class="navigation__link">Produkt</a>
                     <a href="#sklep" class="navigation__link">Sklep</a>
                     <a href="#kontakt" class="navigation__link">Kontakt</a>
-                </li>
-            </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -79,19 +83,19 @@
             <div class=tableContainer>
                 <table class="table">
                     <tr class="table__row">
-                        <th class="table__cell table__header" scope="col">Kimchi</th>
-                        <th class="table__cell table__header" scope="colgroup" colspan="2">Klasyczne</th>
-                        <th class="table__cell table__header" scope="colgroup" colspan="2">Ekstra pikantne</th>
+                        <th class="table__cell table__cell--color" scope="col">Kimchi</th>
+                        <th class="table__cell table__cell--color" scope="colgroup" colspan="2">Klasyczne</th>
+                        <th class="table__cell table__cell--color" scope="colgroup" colspan="2">Ekstra pikantne</th>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header" scope="row">Gramatura</th>
+                        <th class="table__cell table__cell--color" scope="row">Gramatura</th>
                         <td class="table__cell ">500g</td>
                         <td class="table__cell ">1000g</td>
                         <td class="table__cell ">500g</td>
                         <td class="table__cell ">1000g</td>
                     </tr>
                     <tr class="table__row">
-                        <th class="table__cell table__header" scope="row">Cena</th>
+                        <th class="table__cell table__cell--color" scope="row">Cena</th>
                         <td class="table__cell">30zł</td>
                         <td class="table__cell">50zł</td>
                         <td class="table__cell">50zł</td>
@@ -100,15 +104,15 @@
                     <caption class="table__caption">Ilość produktów ograniczona</caption>
                 </table>
             </div>
-            <div class="header">
-                <p class="section__paragraph"><button class="showHidden js-showHidden">Złóż zamówienie</button></p>
+            <div class="section__header">
+                <p class="section__paragraph"><button class="section__showHiddenButton js-showHidden">Złóż zamówienie</button></p>
                 <p class="section__hidden js-section__hidden">Zamówienie przyjęte!</p>
             </div>
         </section>
         <section class="section" id="kontakt">
             <p class="section__header"><a href="+48 xxx xxx xxx" class="section__link">+48 xxx xxx
-                    xxx</a><br>ul.Przykładowa
-                10<br>Januszowo Wielkie</p>
+                    xxx</a><br>ul.Andrzeja 1
+                <br>Pruszków</p>
         </section>
     </main>
     <footer class="footer"> ©Copyright 2021 by Mikołaj Pawłowski </footer>
