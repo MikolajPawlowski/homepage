@@ -2,7 +2,7 @@
 
 
 
-## Project example - demo:
+## Project demo:
 
 \>>  https://mikolajpawlowski.github.io/homepage/  <<
 
