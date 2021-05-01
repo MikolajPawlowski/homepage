@@ -11,7 +11,7 @@
 ## Simple online shop
 
 
->### **In this modest project I used:**
+>### **In this project I used:**
 >
 >- HTML
 >- styling with CSS
