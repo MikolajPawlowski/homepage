@@ -1,18 +1,19 @@
 {
-    const changeColor = document.querySelector(".js-changeColor");
-
+    const changeColor = document.querySelector(".js-changeColorButton");
+    const showHidden = document.querySelector(".js-orderButton");
+    const hidden = document.querySelector(".js-section__orderButton--hidden");
+    
     const onChangeColorClick = () => {
         const randomColor = Math.floor(Math.random() * 16777215).toString(16);
-        const header = document.querySelector(".js-header");
-        header.style.color = "#" + randomColor;
+        const headerElement = document.querySelector(".js-header");
+        headerElement.style.color = "#" + randomColor;
     };
 
-    const showHidden = document.querySelector(".js-showHidden");
-    const hidden = document.querySelector(".js-section__hidden");
+    
 
     const onShowHiddenClick = () => {
-        hidden.classList.toggle("section__hidden");
-        showHidden.innerText = hidden.classList.contains("section__hidden") ? "Zamów" : "Schowaj";
+        hidden.classList.toggle("section__orderButton--hidden");
+        showHidden.innerText = hidden.classList.contains("section__orderButton--hidden") ? "Zamów" : "Schowaj";
     };
 
     const init = () => {

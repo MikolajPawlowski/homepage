@@ -22,7 +22,7 @@
     color: rgb(207, 5, 5);
 }
 
-.navigation__flex {
+.navigation__flexContainer {
     list-style-type: none;
     padding-left: 0px;
     display: flex;

@@ -27,11 +27,11 @@
     <header class="header">
         <h1 class="header__header js-header">Domowe Kimchi</h1>
         <p class="header__paragraph">
-            <button class="header__changeColorButton js-changeColor">Naciśnij, aby losowo zmienić kolor nagłówka</button>
+            <button class="header__changeColorButton js-changeColorButton">Naciśnij, aby losowo zmienić kolor nagłówka</button>
         </p>
         <h2 class="header__header">Projekt wykonany przy okazji pandemii</h2>
         <nav class="navigation">
-            <div class="navigation__flex">
+            <div class="navigation__flexContainer">
                     <a href="#produkt" class="navigation__link">Produkt</a>
                     <a href="#sklep" class="navigation__link">Sklep</a>
                     <a href="#kontakt" class="navigation__link">Kontakt</a>
@@ -79,7 +79,7 @@
             </p>
         </section>
         <section class="section" id="sklep">
-            <h4 class="section__header--special">Cennik</h4>
+            <h4 class="section__header section__header--special">Cennik</h4>
             <div class=tableContainer>
                 <table class="table">
                     <tr class="table__row">
@@ -105,8 +105,8 @@
                 </table>
             </div>
             <div class="section__header">
-                <p class="section__paragraph"><button class="section__showHiddenButton js-showHidden">Złóż zamówienie</button></p>
-                <p class="section__hidden js-section__hidden">Zamówienie przyjęte!</p>
+                <p class="section__paragraph"><button class="section__orderButton js-orderButton">Złóż zamówienie</button></p>
+                <p class="section__orderButton--hidden js-section__orderButton--hidden">Zamówienie przyjęte!</p>
             </div>
         </section>
         <section class="section" id="kontakt">
