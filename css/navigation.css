@@ -3,7 +3,6 @@
     padding: 25px;
     margin: 50px;
     font-size: 25px;
-    text-align: center;
     border-bottom: 2px solid rgb(155, 113, 155);
     color: rgb(97, 48, 143);
 }
@@ -13,7 +12,6 @@
     text-decoration: none;
     padding-bottom: 3px;
     color: rgb(97, 48, 143);
-    flex-basis: 220px;
 }
 
 .navigation__link:hover {
@@ -24,6 +22,7 @@
 
 .navigation__flexContainer {
     list-style-type: none;
-    padding-left: 0px;
     display: flex;
+    flex-low: row wrap;
+    justify-content: space-around;
 }
